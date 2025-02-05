@@ -1,0 +1,83 @@
+@import '../../styles/variaveis';
+
+
+.titulo {
+    font-family: $fonte-navbar;
+    font-size: 2em;
+    background-color: $cor-principal;
+    color: $cor-fonte;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-family: $fonte-navbar;
+    font-size: 1.25em;
+    padding: 1em;
+        input {
+            border: none;
+            font-family: $fonte-navbar;
+            font-size: 1em;
+            margin: 1em 0;
+        }
+
+        select {
+            border: none;
+            font-family: $fonte-navbar;
+            font-size: 1em;
+             option {
+                text-transform: uppercase;
+             }
+        }
+        button {
+            width: 30%;
+            border: 1px solid $cor-secundaria;
+            background-color: $cor-principal;
+            border-radius: 2em;
+            font-family: $fonte-navbar;
+            color: $cor-fonte;
+            font-size: 1em;
+             &:hover {
+                transition: 0.5s;
+                color: $cor-secundaria;
+             }
+        }
+}
+
+.tabela {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 1em;
+    select {
+        border: none;
+        font-family: $fonte-navbar;
+        font-size: 1em;
+         option {
+            text-transform: uppercase;
+         }
+    }
+    button {
+        width: 30%;
+
+        background-color: $cor-principal;
+        border-radius: 2em;
+        font-family: $fonte-navbar;
+        color: $cor-fonte;
+        font-size: 1em;
+         &:hover {
+            transition: 0.5s;
+            color: $cor-secundaria;
+         }
+    }
+
+    &_table {
+        display: flex;
+         h2 {
+            padding: 1em;
+            
+         }
+    }
+}

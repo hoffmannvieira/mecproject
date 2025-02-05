@@ -1,0 +1,26 @@
+@import '../../styles/variaveis';
+
+
+.container {
+    position: relative;
+    top: -18em;
+    left: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 25em;
+       
+}
+
+@media (max-width: 1024px) {
+    .container {
+        position: relative;
+        top: -15em;
+        left: 10em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 15em;
+       
+    }
+}

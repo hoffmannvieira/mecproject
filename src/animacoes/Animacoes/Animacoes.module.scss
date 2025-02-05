@@ -1,0 +1,101 @@
+@import '../../styles/variaveis';
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 20em; 
+    top: -25em;
+    left: 3em;
+    overflow: hidden;
+
+    img {
+        width: 100%; 
+        max-width: 17em; 
+        height: 100%;
+        max-height: 17em;
+        cursor: pointer;
+        
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+
+    
+
+    &_lista {
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+        
+        
+        li {
+            padding: 1em 1.5em;
+         
+        }
+    }
+
+}
+
+.fullScreen_Modal {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0,0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 0;
+    border: none;
+
+     img {
+        max-width: 90%;
+        max-height: 90%;
+     }
+
+     button {
+        position: absolute;
+        top: 1.25em;
+        right: 1.25em;
+        background: none;
+        border: none;
+        color: $cor-secundaria;
+        cursor: pointer;
+        font-size: 2em;
+
+     }
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        margin: 0 13em; 
+        top: -17em;
+        left: 8em;
+        overflow: hidden;
+    
+        img {
+            width: 13em; 
+            max-width: 17em; 
+            
+            cursor: pointer;
+            
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+
+    
+    }
+}

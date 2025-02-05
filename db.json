@@ -1,0 +1,35 @@
+{
+  "animacao": [
+    {
+      "name": "Astronauto",
+      "img": "https://www.youtube.com/embed/VXtnMM1AaDk?si=4Zpeg3Nfii9VXA5A",
+      "id": 1
+    }
+  ],
+  "quadrinhos": [
+    {
+      "name": "Shai",
+      "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRdNeZbvj-sPzNB4X2013WFIDwclHJlJ2Ec5MbUaJc_QLEY8owwNYix7RYUPkPiSHvtJTM8ydSkzV7cS5E",
+      "id": 1
+    }
+  ],
+  "sketchbook": [],
+  "ilustracoes": [
+    {
+      "name": "Shai Gilgeous",
+      "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQtkACkmsP4_heKwS4NtlzvF3-1rSW5bqbZott0w3eGVzogDDaHIweaZZDD_44qBjSbijTIigOgi1bQyUA",
+      "id": 2
+    },
+    {
+      "name": "Shai teste",
+      "img": "https://cdn.nba.com/teams/uploads/sites/1610612760/2024/04/GettyImages-2147812576.jpg",
+      "id": 3
+    },
+    {
+      "img": "https://cdn.nba.com/teams/uploads/sites/1610612760/2024/04/GettyImages-2147812576.jpg",
+      "name": "Teste",
+      "id": 4
+    }
+  ],
+  "print": []
+}

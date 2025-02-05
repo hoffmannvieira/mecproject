@@ -1,0 +1,41 @@
+@import '../../styles/variaveis';
+
+.container {
+    position: relative;
+    top: -25em;
+    left: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 25em;
+    font-family: $fonte-navbar;
+    h2 {
+        font-size: 3em;
+        color: $cor-principal;
+    }
+    
+    img {
+        width: 20em;
+    }
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        padding: 2em 3em;
+        font-size: 1.5em;
+        color: $cor-secundaria;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        position: relative;
+        top: -15em;
+        left: 10em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 15em;
+       
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../styles/variaveis';
+
+.navbar_list {
+   
+    font-size: 1.8em;
+    font-family: $fonte-navbar;
+        a{
+            text-decoration: none;
+            color: $cor-fonte;
+        }
+        a:hover {
+            transition: 0.5s;
+            color: $cor-secundaria;
+        }
+    
+
+}

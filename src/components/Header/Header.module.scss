@@ -1,0 +1,55 @@
+@import '../../styles/variaveis';
+
+.container {
+ 
+    max-width: 300px; // Defina a largura máxima
+    width: 100%; // Pode ser 100% ou uma largura específica
+}
+
+.teste {
+  height: 25em;
+  width: 15.625em;
+  background-color: $cor-secundaria;
+  /* Cor do quadrado */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 35%, 0% 73%, 0% 50%);
+  position: absolute;
+  top: 14.5em;
+
+}
+
+.header {
+  height: 28.125em;
+  width: 15.625em;
+  background-color: $cor-principal;
+  position: relative;
+  /* Cor do quadrado */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 65%, 0% 100%, 0% 50%);
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  a {
+    text-decoration: none;
+   }
+
+  h1 {
+    text-align: center;
+    font-family: $fonte-home;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 2.3em;
+    color: $cor-fonte;
+    
+
+  }
+  hr {
+    color: $cor-secundaria;
+  }
+  p {
+    text-align: center;
+    
+    font-size: 2em;
+    font-family: "Circus Of Innocents";
+    color: $cor-secundaria;
+  }
+
+}

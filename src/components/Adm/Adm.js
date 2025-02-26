@@ -45,13 +45,13 @@ const Adm = ({ artes }) => {
 
 
     function createPost(arte) {
-        arte.id = uuidv4()
+        const id = uuidv4()
         fetch(`http://localhost:8000/${options}`, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(arte)
+            body: JSON.stringify({id, ...arte})
         }).then((resposta) => resposta.json())
             .then((dados) => {
                 console.log(dados)
